@@ -36,21 +36,3 @@ function showPestanas(id) {
     $("#lamina" + i).css("display", "block");
   }
 }
-
-function friendship() {
-  modal.style.display = "block";
-}
-
-var modal = document.getElementById("myModal");
-
-var span = document.getElementById("span-close");
-
-span.onclick = function () {
-  modal.style.display = "none";
-};
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-};
